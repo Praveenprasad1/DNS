@@ -1,1 +1,29 @@
-A simple implementation of an authoritative name server in C
+# SecuredDNS
+
+SecuredDNS is a lightweight, standards-compliant DNS resolver with enhanced security features.  
+It implements DNS over TLS (DoT) and DNSSEC validation to protect against spoofing and interception.
+
+---
+
+## ✨ Features
+- DNS over TLS (DoT) support using OpenSSL
+- DNSSEC validation for authenticity
+- Configurable upstream resolvers (default: Cloudflare 1.1.1.1)
+- Cross-platform C implementation
+- BSD-licensed for open-source use
+
+---
+
+## 🚀 Getting Started
+
+### Prerequisites
+- GCC/Clang
+- OpenSSL (`libssl`, `libcrypto`)
+- Linux or macOS (tested)
+
+### Build
+```bash
+git clone https://github.com/Praveenprasad1/SecuredDNS.git
+cd SecuredDNS
+make
+
